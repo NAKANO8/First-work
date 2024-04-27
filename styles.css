@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 400%;
+}
+.button{
+    border: 1px solid rgb(251, 3, 3);
+    border-radius: 5px;
+    background-color: rgb(254, 5, 5);
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    width: 80px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between; /* ボタンの間にスペースを均等に配置 */
+    width: 300px; /* ボタンコンテナの幅を設定 */
+    margin: 0 auto; /* 中央揃え */
+}
+.container {
+    text-align: center;
+}
