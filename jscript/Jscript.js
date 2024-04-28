@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const menuItems = document.querySelectorAll("#nav li");
+    const menuItems = document.querySelectorAll(".nav li");
 
     menuItems.forEach(item => {
         item.addEventListener("mouseover", function() {

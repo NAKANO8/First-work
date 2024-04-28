@@ -9,7 +9,7 @@ h1{
     font-size: 400%;
 }
 
-#nav li {
+.nav li {
     list-style: none;
     width: 200px;
     height: 40px;
@@ -20,18 +20,18 @@ h1{
     border-right: 1px solid #eee;
 }
 
-#nav li a {
+.nav li a {
     text-decoration: none;
     color: #000;
 }
 
-#nav li ul {
+.nav li ul {
     display: none;
     margin-left: -40px;
     position: absolute;
 }
 
-#nav li ul li {
+.nav li ul li {
     border-top: 1px solid #eee;
 }
 
